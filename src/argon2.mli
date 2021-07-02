@@ -1,3 +1,5 @@
+external _argon2_typestring: int -> string = "argon2_type2string"
+
 (** Ocaml bindings to Argon2. *)
 
 module ErrorCodes : sig

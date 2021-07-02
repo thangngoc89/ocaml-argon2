@@ -1,6 +1,8 @@
 open Ctypes
 open Foreign
 
+external _argon2_typestring: int -> string = "argon2_type2string"
+
 module Kind = struct
   type t = D | I | ID
 
